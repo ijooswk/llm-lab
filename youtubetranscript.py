@@ -41,15 +41,11 @@ def summarize_transcript(transcript, model="gemma3:12b"):
         print(f"Ollama API error: {response.status_code} {response.text}")
         return None
 
-# if __name__ == "__main__":
-#     if transcript:
-#         summary = summarize_transcript(transcript)
-#         if summary:
-#             print("\nSummary:\n", summary)
-
 if __name__ == "__main__":
-    url = "https://youtu.be/ti315MTkGXg?si=Ucy0rlntfu3PuWHq"
-    lang = ['en']  # Change to desired language code(s), e.g., ['en', 'es']
+    url = ""
+    if not url:
+        url = input("Enter YouTube URL (leave empty for default): ").strip()
+    lang = ['en','ko']  # Change to desired language code(s), e.g., ['en', 'es']
     transcript = get_transcript(url, lang)
     
     summary = summarize_transcript(transcript)
