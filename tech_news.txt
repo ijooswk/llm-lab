@@ -1,0 +1,17 @@
+KPMG rolls out AI trust service
+The offices of KPMG LLP in the Canary Wharf business and shopping district in London
+The offices of KPMG LLP in the Canary Wharf business and shopping district in LondonSimon Dawson/Bloomberg
+Big Four firm KPMG launched KPMG AI Trust, a suite of services to help clients with AI reliability, 
+accountability and transparency as they scale AI applications. 
+The suite of services offers a set of tools to help clients navigate the complexities of AI intake, 
+assessment, development, deployment, management and monitoring to make AI systems secure, compliant and 
+ethically sound. The core set of assessment, inventory, integration, workflow and reporting capabilities 
+include Risk-tiered AI Solution Intake Evaluation, a systematic approach to assessing the risk levels of 
+AI solutions so they meet necessary standards and business needs. AI Inventory and Controls offers centralization
+ of AI tools and application of Trusted AI Controls to enable application of policies and risk standards. 
+ AI Solution Pre-Launch Validations provides testing and validation processes to vet AI systems before deployment. 
+ Dynamic Regulatory Applicability Assessments provide continuous monitoring and adaptation to changing regulatory 
+ and compliance landscapes. KPMG has activated AI Trust with ServiceNow's AI Control Tower technology, 
+ with the aim of continuously updating AI governance as technology and regulatory environments evolve. 
+ Clients can automate AI-related compliance processes to continuously monitor for regulatory and 
+ internal control compliance and embed the ServiceNow AI Control Tower on their platform.
