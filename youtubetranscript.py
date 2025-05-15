@@ -20,7 +20,7 @@ def get_transcript(youtube_url, languages=['en']):
 
 
 # This script will get the summary from the transcript of a youtube video and call ollama API (local) to summarize it.
-def summarize_transcript(transcript, model="gemma3:12b"):
+def summarize_transcript(transcript, model="gemma:7b"):
     # Combine transcript text
     full_text = " ".join([entry['text'] for entry in transcript])
     prompt = f"Summarize the following YouTube transcript:\n\n{full_text}"
@@ -42,11 +42,11 @@ def summarize_transcript(transcript, model="gemma3:12b"):
         return None
 
 if __name__ == "__main__":
-    url = ""
+    url = "https://youtube.com/watch?v=Hf9eemAnKHI"
     if not url:
         url = input("Enter YouTube URL (leave empty for default): ").strip()
     lang = ['en','ko']  # Change to desired language code(s), e.g., ['en', 'es']
     transcript = get_transcript(url, lang)
     
     summary = summarize_transcript(transcript)
-    print(summary)
+    
